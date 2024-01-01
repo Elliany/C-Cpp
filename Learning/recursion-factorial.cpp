@@ -1,4 +1,4 @@
-#include <stdio.h>
+1#include <stdio.h>
 
 long int factorial(int n) {
     if (n < 0) return -1; // Factorial not defined for negative numbers
