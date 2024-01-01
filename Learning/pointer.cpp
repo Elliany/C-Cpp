@@ -22,9 +22,9 @@ int main() {
     printf("My average is %.2f\n", sum / Size);
     printf("\n\n");
     printf("Sum is at %p, or %lu and is %lf \n",
-          (void*)ptr_to_sum, (unsigned long)ptr_to_sum, *ptr_to_sum);
+          ptr_to_sum, ptr_to_sum, *ptr_to_sum);
 
-    printf("Grades are at %p to %p\n", (void*)grades, (void*)(&grades[Size-1]));
+    printf("Grades are at %lu to %lu\n", grades, grades + 5);
 
     return 0;
 }
